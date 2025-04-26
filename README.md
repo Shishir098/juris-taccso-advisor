@@ -19,7 +19,7 @@ Follow these steps:
 git clone https://github.com/Shishir098/juris-taccso-advisor.git
 
 # Step 2: Navigate to the project directory.
-cd juris-taccso-advisor.git
+cd juris-taccso-advisor
 
 # Step 3: Install the necessary dependencies.
 npm i
