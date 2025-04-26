@@ -94,7 +94,9 @@ export function JurisdictionSelector() {
               )}
               {ipBasedJurisdiction === jurisdiction.code && 
                 currentJurisdiction.code !== jurisdiction.code && (
-                <Globe className="h-4 w-4 text-muted-foreground" title="Detected location" />
+                <div title="Detected location">
+                  <Globe className="h-4 w-4 text-muted-foreground" />
+                </div>
               )}
             </DropdownMenuItem>
           ))}
